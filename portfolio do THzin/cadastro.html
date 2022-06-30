@@ -1,0 +1,50 @@
+<!--
+	Estrutura HTMl da Página Cadastro
+	Code by Thzin Mine-Programador, 2022
+-->
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="https://th.bing.com/th/id/R.2f9127a72bb8e853fe273642c2a81671?rik=ZupIizUA5Vb3Uw&pid=ImgRaw&r=0" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://th.bing.com/th/id/R.2f9127a72bb8e853fe273642c2a81671?rik=ZupIizUA5Vb3Uw&pid=ImgRaw&r=0" sizes="16x16">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cadrastro</title>
+</head>
+<body>
+<div class="container">
+<div class="card">
+<h1> Cadastrar </h1>
+
+<div id="msgError"></div>
+<div id="msgSuccess"></div>
+            
+<div class="label-float">
+    <input type="text" id="nome" placeholder="" required>
+    <label id="labelNome" for="nome">Nome</label>
+</div>
+
+ <div class="label-float">
+    <input type="text" id="usuario" placeholder="" required>
+    <label id="labelUsuario" for="usuario">Usuário</label>
+</div>
+
+<div class="label-float">
+    <input type="password" id="senha" placeholder="" required>
+    <label id="labelSenha" for="senha">Senha</label>
+</div>
+
+<div class="label-float">
+    <input type="password" id="confirmaSenha" placeholder="" required>
+    <label id="labelConfirmaSenha" for="confirmaSenha">Confirma Senha</label>               
+</div>
+
+<div class="justify-center">
+    <button onclick="cadastrar()">Cadastrar</button>
+</div>
+<script src="javaScript/cadastro.js"></script>
+</body>
+</html>
+
+<!------------------------------------Code by Thzin Mine-Programador, 2022------------------------------------------>

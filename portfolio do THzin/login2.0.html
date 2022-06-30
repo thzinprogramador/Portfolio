@@ -1,0 +1,53 @@
+<!--
+	Estrutura HTMl da Página Login2.0
+	Code by Thzin Mine-Programador, 2022
+-->
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="https://th.bing.com/th/id/R.2f9127a72bb8e853fe273642c2a81671?rik=ZupIizUA5Vb3Uw&pid=ImgRaw&r=0" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://th.bing.com/th/id/R.2f9127a72bb8e853fe273642c2a81671?rik=ZupIizUA5Vb3Uw&pid=ImgRaw&r=0" sizes="16x16">
+    <link rel="stylesheet" href="css/login2.0.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Login </title>
+</head>
+<body>
+
+<div class="container">
+<div class="card">
+    <h1> Entrar </h1>
+
+<div id="msgError"></div>
+<div id="msgSuccess"></div>
+        
+<div class="label-float">
+    <input type="text" id="usuario" paceholder=" " required>
+    <label id="userLabel" for="usuario">Usuario</label>
+    </div>
+
+<div class="label-float">
+    <input type="password" id="senha" paceholder=" " required>
+    <label id="senhaLabel" for="senha">Senha</label>
+    <i class="fa fa-eye" aria-hidden="true"></i>
+</div>
+
+<div class="justify-center">
+    <button onclick="entrar()">Entrar</button>
+</div>
+
+<div class="justify-center">
+    <hr>
+</div>
+
+<p> Não tem uma conta?
+<a href="cadastro.html"> Cadastre-se </a>
+</p>
+
+
+<script src="javaScript/login2.0.js"></script>
+</div>
+</body>
+</html>
+
+<!------------------------------------Code by Thzin Mine-Programador, 2022------------------------------------------>
